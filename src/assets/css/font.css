@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'Ogg';
+	font-style: italic;
+	src: url(../fonts/ogg/italic/regular/ogg-italic-regular.woff) format('woff'),
+		 url(../fonts/ogg/italic/regular/ogg-italic-regular.woff2) format('woff2')
+}
+
+@font-face {
+	font-family: 'Ogg';
+	font-style: normal;
+	src: url(../fonts/ogg/normal/regular/ogg-normal-regular.woff) format('woff'),
+		 url(../fonts/ogg/normal/regular/ogg-normal-regular.woff2) format('woff2')
+}

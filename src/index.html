@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>Test pré-embauche ÉVO</title>
+    <!-- Font-family :  futura - Primary font -->
+    <link rel="stylesheet" href="https://use.typekit.net/olv0ygv.css">
+    <link rel="stylesheet" href="./assets/css/font.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+
+
+<body>
+
+    <header>
+        <nav class="nav_1">
+            <ul class="ul_1">
+                <li>
+                    <a class="a_nav" href="#">bougies</a>
+                </li>
+                <li>
+                    <a class="a_nav" href="#">ma bougie sur mesure</a>
+                </li>
+                <li>
+                    <a class="a_nav" href="#">calculer mon signe</a>
+                </li>
+            </ul>
+        </nav>
+        <a href="#" class="olfactif"><img src="./assets/img/logoOlfactif.svg"></a>
+        <nav class="nav_2">
+            <ul class="ul_2">
+                <li>
+                    <a class="a_nav" href="#">abécédaire</a>
+                </li>
+                <li>
+                    <a class="a_nav" href="#">à propos</a>
+                </li>
+                <li>
+                    <a class="a_nav" href="#">mon compte</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ------------Intégrez les lextes et les images dans la balise html <article></article> réservée à cet effet en vous basant sur la maquette. / Votre intégration doit être responsive (en résolution mobile, tablette et desktop) /  le header et le footer ne doivent pas être modifiés ils ne font pas partis du test et sont déjà responsive---------------- -->
+
+        <article>
+            <div class="article_1">
+                <img src="assets/img/Olfactif-1.png" alt="fleur bougie">
+                <div class="article__text-wraper">
+                    <h3><strong> <em>O</em>lfactif</strong> <br> des bougies du for intérieur</h3>
+                    <p>Ici, vous ne trouverez pas des bougies d’intérieur mais des bougies du for intérieur. <br>
+                        Elles vous invitent à convoquer les astres pour mieux vous connaître, et à étirer les heures
+                        pour mieux vous rencontrer.
+                        <a href="">On vous fait visiter ?</a>
+                </div>
+            </div>
+
+            <div class="article_2">
+                <div class="article__text-wraper">
+                    <h3><strong><em>D</em>es bougie sur-mesure</strong> <br>pour mieux vous découvrir</h3>
+                    <p>Grâce à votre date, heure et lieu de naissance, nous réalisons votre portrait astral : il s’agit
+                        d’une première interprétation de votre carte du ciel, qui vous révèle les différents aspects de
+                        votre personnalité pour apprendre à mieux vous connaître. <br>
+                        Ce portrait niché dans une capsule scellée dans la cire de votre bougie, se révèlera au gré des
+                        heures qui s'écoulent. </p>
+                </div>
+                <div class="article__img-group">
+                    <img src="assets/img/home-petite.png" alt="bougie sur-mesure zoom">
+                    <img src="assets/img/home-xs-petite.png" alt="bougie sur-mesure zoom">
+                </div>
+                <img src="assets/img/home.png" alt="bougie sur-mesure">
+            </div>
+
+        </article>
+
+        <!-- ------------ FIN ARTICLE "TEXTES ET IMAGES" ---------------- -->
+
+        <article>
+            <p class="texte_seul">Il y a des effluves de vanille cuirée, quelques feuilles de thé vert et de menthe, les
+                grésillements d’un feu de bois...<br>Nous avons créé 12 parfums sur-mesure, dont le sillage reflète
+                votre caractère.<br>A chaque signe, son univers olfactif.</p>
+        </article>
+
+
+        <!-- ------------Implémentez le swiper ci-dessous / Un fichier script.js est à votre disposition / Suivez la documentation du site https://swiperjs.com/ pour implémenter le swiper / Le swiper doit être responsive, sans pagination et sans bouton pour afficher les images de gauche ou de droite / la navigation d'une image à l'autre se fera au clique sur les images pour les faire défiler ---------------- -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" id="swiper-slide-1"></div>
+                <div class="swiper-slide" id="swiper-slide-2"></div>
+                <div class="swiper-slide" id="swiper-slide-3"></div>
+                <div class="swiper-slide" id="swiper-slide-4"></div>
+                <div class="swiper-slide" id="swiper-slide-5"></div>
+                <div class="swiper-slide" id="swiper-slide-6"></div>
+                <div class="swiper-slide" id="swiper-slide-7"></div>
+                <div class="swiper-slide" id="swiper-slide-8"></div>
+                <div class="swiper-slide" id="swiper-slide-9"></div>
+                <div class="swiper-slide" id="swiper-slide-10"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+
+        <!-- ------------FIN DU SWIPER---------------- -->
+    </main>
+
+    <footer>
+        <p>© 2022 Olfactif réalisé par<img src="./assets/img/wshop_logo_footer.svg"></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>

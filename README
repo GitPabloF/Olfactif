@@ -1,0 +1,11 @@
+
+
+## Choix et Techniques d'Implémentation
+
+# Intégration de l'Article
+Les deux blocs d'éléments (texte et images) ont été mis en place en respectant les dimensions de la maquette pour une largeur de 1920px. En dessous de cette largeur d'écran, les contenus s'adaptent aux différentes tailles d'écran, y compris celles des appareils mobiles, en utilisant des propriétés telles que flex-box, max-width, des pourcentages de largeur, et des média queries.
+
+# Implémentation du Carrousel Swiper
+Pour le carrousel, afin d'obtenir un résultat esthétique qui suit au plus près la maquette, nous avons choisi d'afficher 4 images en largeur d'écran. Les caractéristiques clés de ce carrousel comprennent la réactivité, le bouclage, la fonction autoplay, la suppression de la pagination et des boutons de navigation, ainsi que l'ajout d'une pagination interactive.
+
+# durée de traitement : 1h30
